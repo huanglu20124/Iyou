@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:descendantFocusability="blocksDescendants"
+    android:paddingBottom="5dp"
+    android:paddingTop="5dp">
+    <!--设置点击listview获取点击范围事件-->
+
+
+    <com.example.iyou.tool.CustomImageView android:id="@+id/img"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="5px"
+        android:layout_weight="2"
+        android:layout_marginRight="10px" />
+
+    <LinearLayout android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="8">
+
+        <TextView android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/home_list_name_text" />
+        <TextView android:id="@+id/money"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/home_list_money_text" />
+
+    </LinearLayout>
+
+    <ImageView android:id="@+id/view_btn"
+        android:layout_width="0dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:layout_weight="2.44"
+        android:src="@drawable/add_button"/>
+</LinearLayout>

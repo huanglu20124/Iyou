@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:elevation="5dp">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <FrameLayout
+                    android:id="@+id/community_route_post_fl"
+                    android:layout_width="0dp"
+                    android:layout_weight="3"
+                    android:layout_height="40dp"
+                    android:background="@color/avoscloud_feedback_white"
+                    android:layout_marginRight="1dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+                        <ImageView
+                            android:layout_gravity="center"
+                            android:id="@+id/route_image"
+                            android:layout_marginLeft="40dp"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:src="@drawable/route_title_normal"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="足迹贴"
+                        android:layout_gravity="center"
+                        android:id="@+id/route_title"
+                        android:layout_margin="5dp"/>
+                    </LinearLayout>
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/community_share_button"
+                    android:layout_width="0dp"
+                    android:layout_weight="0.2"
+                    android:layout_height="40dp"
+                    android:background="@color/avoscloud_feedback_white"
+                    android:layout_marginRight="1dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="@color/avoscloud_feedback_white"
+                        android:text="+"
+                        android:layout_gravity="center"
+                        android:id="@+id/sharetext"
+                        android:layout_margin="5dp"/>
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/community_question_post_fl"
+                    android:layout_width="0dp"
+                    android:layout_weight="3"
+                    android:layout_height="40dp"
+                    android:background="@color/avoscloud_feedback_white">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+                        <ImageView
+                            android:layout_gravity="center"
+                            android:id="@+id/quetion_image"
+                            android:layout_marginLeft="25dp"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:src="@drawable/quetion_title_normal"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="问题贴"
+                        android:id="@+id/quetion_title" />
+                    </LinearLayout>
+                </FrameLayout>
+            </LinearLayout>
+        </FrameLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <!--<com.example.iyou.community.activity.RefreshableView-->
+            <!--android:id="@+id/refreshable_view"-->
+            <!--android:layout_width="fill_parent"-->
+            <!--android:layout_height="fill_parent" >-->
+
+            <!--<ListView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:id="@+id/community_listView"-->
+            <!--android:layout_marginBottom="@dimen/listview_margin_to_bottom"/>-->
+
+            <!--</com.example.iyou.community.activity.RefreshableView>-->
+
+            <com.example.iyou.tool.RefreshLayout
+                android:id="@+id/contact_fragment_srl_list"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ListView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/community_listView"
+                    android:layout_marginBottom="@dimen/listview_margin_to_bottom"
+                    android:divider="#00000000"
+                    android:dividerHeight="18dp" />
+
+            </com.example.iyou.tool.RefreshLayout>
+        </LinearLayout>
+</LinearLayout>
+
+    <com.getbase.floatingactionbutton.FloatingActionsMenu
+        android:id="@+id/multiple_actions_left"
+        android:layout_width="wrap_content"
+        fab:fab_addButtonColorNormal="@color/colorBaseYellow"
+        fab:fab_addButtonColorPressed="@color/colorMyFontNum"
+        fab:fab_addButtonPlusIconColor="@color/white"
+        fab:fab_addButtonStrokeVisible="false"
+        fab:fab_expandDirection="left"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_gravity="center|bottom|right"
+        android:layout_height="wrap_content">
+
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            fab:fab_colorNormal="@color/colorBaseYellow"
+            fab:fab_colorPressed="@color/colorMyFontNum"
+            fab:fab_icon="@drawable/fab_route"
+            android:id="@+id/fab_to_route" />
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            fab:fab_colorNormal="@color/colorBaseYellow"
+            fab:fab_colorPressed="@color/colorMyFontNum"
+            fab:fab_icon="@drawable/fab_question"
+            android:id="@+id/fab_to_question" />
+
+    </com.getbase.floatingactionbutton.FloatingActionsMenu>
+</FrameLayout>

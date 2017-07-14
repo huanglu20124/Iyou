@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="2dp"
+    android:layout_marginTop="5dp"
+    android:alpha="0"/>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:background="@color/white"
+        android:layout_marginLeft="5dp">
+        <com.example.iyou.my.activity.CircleImageView
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:id="@+id/community_question_head" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:layout_marginLeft="8dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Large Text"
+                android:id="@+id/community_question_username"
+                android:textColor="@color/black" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="提问于"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="New Text"
+                android:id="@+id/community_question_time" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:id="@+id/community_question_text"
+        android:layout_marginLeft="10dp"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.example.iyou.tool.NineGridlayout
+            android:layout_marginTop="8dp"
+            android:id="@+id/iv_ngrid_layout"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent" />
+
+        <com.example.iyou.tool.CustomImageView
+            android:layout_marginTop="8dp"
+            android:id="@+id/iv_oneiamge"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"/>
+
+    </FrameLayout>
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="5dp"
+    android:background="@color/divider_color"
+    android:layout_marginTop="5dp"/>
+</LinearLayout>

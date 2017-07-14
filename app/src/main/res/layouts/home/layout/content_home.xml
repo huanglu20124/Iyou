@@ -1,0 +1,26 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <!--<ListView-->
+        <!--android:id="@+id/home_listview"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_marginBottom="@dimen/listview_margin_to_bottom"></ListView>-->
+
+    <com.example.iyou.tool.RefreshLayout
+        android:id="@+id/contact_fragment_srl_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ListView
+            android:id="@+id/home_listview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/listview_margin_to_bottom"></ListView>
+
+    </com.example.iyou.tool.RefreshLayout>
+
+</LinearLayout>

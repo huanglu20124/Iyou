@@ -1,0 +1,7 @@
+#Sun Feb 26 14:41:51 CST 2017
+base.0=C\:\\Users\\road\\Desktop\\7.1\\IyoU\\sample\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_51256ac10cd402bd54f894ff716ebbe4b4e052bb
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=C\:\\Users\\road\\Desktop\\7.1\\IyoU\\sample\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_df4f26b8e59f05a37568d5ba1f28ac411361324f\\classes.dex
+base.1=C\:\\Users\\road\\Desktop\\7.1\\IyoU\\sample\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_df4f26b8e59f05a37568d5ba1f28ac411361324f
+file.0=C\:\\Users\\road\\Desktop\\7.1\\IyoU\\sample\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_51256ac10cd402bd54f894ff716ebbe4b4e052bb\\classes.dex

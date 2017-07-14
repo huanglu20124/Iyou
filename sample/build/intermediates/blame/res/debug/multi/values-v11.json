@@ -1,0 +1,74 @@
+[
+    {
+        "outputFile": "C:\\Users\\road\\Desktop\\7.1\\IyoU\\sample\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v11\\values-v11.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 95,
+                    "endOffset": 146
+                },
+                "from": {
+                    "file": "C:\\Users\\road\\Desktop\\7.1\\IyoU\\sample\\src\\main\\res\\values-v11\\styles.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 56,
+                        "endColumn": 95,
+                        "endOffset": 147
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "E:\\study_and_work\\android_and_java\\android\\IyoU\\sample\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v11\\values-v11.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 95,
+                    "endOffset": 146
+                },
+                "from": {
+                    "file": "E:\\study_and_work\\android_and_java\\android\\IyoU\\sample\\src\\main\\res\\values-v11\\styles.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 56,
+                        "endColumn": 95,
+                        "endOffset": 147
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "E:\\study_and_work\\android_and_java\\android_and_java(old)\\Iyou\\7.2\\7.1\\IyoU\\sample\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v11\\values-v11.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 95,
+                    "endOffset": 146
+                },
+                "from": {
+                    "file": "E:\\study_and_work\\android_and_java\\android_and_java(old)\\Iyou\\7.2\\7.1\\IyoU\\sample\\src\\main\\res\\values-v11\\styles.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 56,
+                        "endColumn": 95,
+                        "endOffset": 147
+                    }
+                }
+            }
+        ]
+    }
+]

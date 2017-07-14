@@ -1,0 +1,35 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#FFD700</item>
+        <item name="colorPrimaryDark">#FFD700</item>
+        <item name="colorAccent">#FFD700</item>
+        <item name="android:windowContentTransitions">true</item>
+    </style>
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="MyNoActinBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:background">#FFD700</item>
+    </style>
+    <style name="customWindowActinbar">
+        <item name="android:textColor">@color/avoscloud_feedback_white</item>
+        <item name="android:background">#FFD700</item>
+    </style>
+
+    <style name="MyEditText" parent="Theme.AppCompat.Light">
+        <item name="colorControlNormal">#EEDFCC</item>
+        <item name="colorControlActivated">#FFD700</item>
+    </style>
+
+    <style name="menu_labels_style">
+        <item name="android:background">@drawable/fab_label_background</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+</resources>

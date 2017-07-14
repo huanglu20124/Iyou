@@ -1,0 +1,644 @@
+[
+    {
+        "outputFile": "E:\\study_and_work\\android_and_java\\android\\IyoU\\otherAnim\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 40,
+                    "startColumn": 4,
+                    "startOffset": 2638,
+                    "endColumn": 42,
+                    "endOffset": 2676
+                },
+                "from": {
+                    "file": "E:\\study_and_work\\android_and_java\\android\\IyoU\\otherAnim\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 40,
+                        "startColumn": 4,
+                        "startOffset": 2638,
+                        "endColumn": 42,
+                        "endOffset": 2676
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 41,
+                    "startColumn": 4,
+                    "startOffset": 2681,
+                    "endColumn": 58,
+                    "endOffset": 2735
+                },
+                "from": {
+                    "file": "E:\\study_and_work\\android_and_java\\android\\IyoU\\otherAnim\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 41,
+                        "startColumn": 4,
+                        "startOffset": 2681,
+                        "endColumn": 58,
+                        "endOffset": 2735
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 42,
+                    "startColumn": 4,
+                    "startOffset": 2740,
+                    "endColumn": 57,
+                    "endOffset": 2793
+                },
+                "from": {
+                    "file": "E:\\study_and_work\\android_and_java\\android\\IyoU\\otherAnim\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 42,
+                        "startColumn": 4,
+                        "startOffset": 2740,
+                        "endColumn": 57,
+                        "endOffset": 2793
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 43,
+                    "startColumn": 4,
+                    "startOffset": 2798,
+                    "endColumn": 41,
+                    "endOffset": 2835
+                },
+                "from": {
+                    "file": "E:\\study_and_work\\android_and_java\\android\\IyoU\\otherAnim\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 43,
+                        "startColumn": 4,
+                        "startOffset": 2798,
+                        "endColumn": 41,
+                        "endOffset": 2835
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 44,
+                    "startColumn": 4,
+                    "startOffset": 2840,
+                    "endColumn": 41,
+                    "endOffset": 2877
+                },
+                "from": {
+                    "file": "E:\\study_and_work\\android_and_java\\android\\IyoU\\otherAnim\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 44,
+                        "startColumn": 4,
+                        "startOffset": 2840,
+                        "endColumn": 41,
+                        "endOffset": 2877
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 45,
+                    "startColumn": 4,
+                    "startOffset": 2882,
+                    "endColumn": 47,
+                    "endOffset": 2925
+                },
+                "from": {
+                    "file": "E:\\study_and_work\\android_and_java\\android\\IyoU\\otherAnim\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 45,
+                        "startColumn": 4,
+                        "startOffset": 2882,
+                        "endColumn": 47,
+                        "endOffset": 2925
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 46,
+                    "startColumn": 4,
+                    "startOffset": 2930,
+                    "endColumn": 49,
+                    "endOffset": 2975
+                },
+                "from": {
+                    "file": "E:\\study_and_work\\android_and_java\\android\\IyoU\\otherAnim\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 46,
+                        "startColumn": 4,
+                        "startOffset": 2930,
+                        "endColumn": 49,
+                        "endOffset": 2975
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 47,
+                    "startColumn": 4,
+                    "startOffset": 2980,
+                    "endColumn": 44,
+                    "endOffset": 3020
+                },
+                "from": {
+                    "file": "E:\\study_and_work\\android_and_java\\android\\IyoU\\otherAnim\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 47,
+                        "startColumn": 4,
+                        "startOffset": 2980,
+                        "endColumn": 44,
+                        "endOffset": 3020
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 48,
+                    "startColumn": 4,
+                    "startOffset": 3025,
+                    "endColumn": 43,
+                    "endOffset": 3064
+                },
+                "from": {
+                    "file": "E:\\study_and_work\\android_and_java\\android\\IyoU\\otherAnim\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 48,
+                        "startColumn": 4,
+                        "startOffset": 3025,
+                        "endColumn": 43,
+                        "endOffset": 3064
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 49,
+                    "startColumn": 4,
+                    "startOffset": 3069,
+                    "endColumn": 47,
+                    "endOffset": 3112
+                },
+                "from": {
+                    "file": "E:\\study_and_work\\android_and_java\\android\\IyoU\\otherAnim\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 49,
+                        "startColumn": 4,
+                        "startOffset": 3069,
+                        "endColumn": 47,
+                        "endOffset": 3112
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 50,
+                    "startColumn": 4,
+                    "startOffset": 3117,
+                    "endColumn": 48,
+                    "endOffset": 3161
+                },
+                "from": {
+                    "file": "E:\\study_and_work\\android_and_java\\android\\IyoU\\otherAnim\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 50,
+                        "startColumn": 4,
+                        "startOffset": 3117,
+                        "endColumn": 48,
+                        "endOffset": 3161
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "E:\\study_and_work\\android_and_java\\android_and_java(old)\\Iyou\\7.2\\7.1\\IyoU\\otherAnim\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 40,
+                    "startColumn": 4,
+                    "startOffset": 2638,
+                    "endColumn": 42,
+                    "endOffset": 2676
+                },
+                "from": {
+                    "file": "E:\\study_and_work\\android_and_java\\android_and_java(old)\\Iyou\\7.2\\7.1\\IyoU\\otherAnim\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 40,
+                        "startColumn": 4,
+                        "startOffset": 2638,
+                        "endColumn": 42,
+                        "endOffset": 2676
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 41,
+                    "startColumn": 4,
+                    "startOffset": 2681,
+                    "endColumn": 58,
+                    "endOffset": 2735
+                },
+                "from": {
+                    "file": "E:\\study_and_work\\android_and_java\\android_and_java(old)\\Iyou\\7.2\\7.1\\IyoU\\otherAnim\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 41,
+                        "startColumn": 4,
+                        "startOffset": 2681,
+                        "endColumn": 58,
+                        "endOffset": 2735
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 42,
+                    "startColumn": 4,
+                    "startOffset": 2740,
+                    "endColumn": 57,
+                    "endOffset": 2793
+                },
+                "from": {
+                    "file": "E:\\study_and_work\\android_and_java\\android_and_java(old)\\Iyou\\7.2\\7.1\\IyoU\\otherAnim\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 42,
+                        "startColumn": 4,
+                        "startOffset": 2740,
+                        "endColumn": 57,
+                        "endOffset": 2793
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 43,
+                    "startColumn": 4,
+                    "startOffset": 2798,
+                    "endColumn": 41,
+                    "endOffset": 2835
+                },
+                "from": {
+                    "file": "E:\\study_and_work\\android_and_java\\android_and_java(old)\\Iyou\\7.2\\7.1\\IyoU\\otherAnim\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 43,
+                        "startColumn": 4,
+                        "startOffset": 2798,
+                        "endColumn": 41,
+                        "endOffset": 2835
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 44,
+                    "startColumn": 4,
+                    "startOffset": 2840,
+                    "endColumn": 41,
+                    "endOffset": 2877
+                },
+                "from": {
+                    "file": "E:\\study_and_work\\android_and_java\\android_and_java(old)\\Iyou\\7.2\\7.1\\IyoU\\otherAnim\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 44,
+                        "startColumn": 4,
+                        "startOffset": 2840,
+                        "endColumn": 41,
+                        "endOffset": 2877
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 45,
+                    "startColumn": 4,
+                    "startOffset": 2882,
+                    "endColumn": 47,
+                    "endOffset": 2925
+                },
+                "from": {
+                    "file": "E:\\study_and_work\\android_and_java\\android_and_java(old)\\Iyou\\7.2\\7.1\\IyoU\\otherAnim\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 45,
+                        "startColumn": 4,
+                        "startOffset": 2882,
+                        "endColumn": 47,
+                        "endOffset": 2925
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 46,
+                    "startColumn": 4,
+                    "startOffset": 2930,
+                    "endColumn": 49,
+                    "endOffset": 2975
+                },
+                "from": {
+                    "file": "E:\\study_and_work\\android_and_java\\android_and_java(old)\\Iyou\\7.2\\7.1\\IyoU\\otherAnim\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 46,
+                        "startColumn": 4,
+                        "startOffset": 2930,
+                        "endColumn": 49,
+                        "endOffset": 2975
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 47,
+                    "startColumn": 4,
+                    "startOffset": 2980,
+                    "endColumn": 44,
+                    "endOffset": 3020
+                },
+                "from": {
+                    "file": "E:\\study_and_work\\android_and_java\\android_and_java(old)\\Iyou\\7.2\\7.1\\IyoU\\otherAnim\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 47,
+                        "startColumn": 4,
+                        "startOffset": 2980,
+                        "endColumn": 44,
+                        "endOffset": 3020
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 48,
+                    "startColumn": 4,
+                    "startOffset": 3025,
+                    "endColumn": 43,
+                    "endOffset": 3064
+                },
+                "from": {
+                    "file": "E:\\study_and_work\\android_and_java\\android_and_java(old)\\Iyou\\7.2\\7.1\\IyoU\\otherAnim\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 48,
+                        "startColumn": 4,
+                        "startOffset": 3025,
+                        "endColumn": 43,
+                        "endOffset": 3064
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 49,
+                    "startColumn": 4,
+                    "startOffset": 3069,
+                    "endColumn": 47,
+                    "endOffset": 3112
+                },
+                "from": {
+                    "file": "E:\\study_and_work\\android_and_java\\android_and_java(old)\\Iyou\\7.2\\7.1\\IyoU\\otherAnim\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 49,
+                        "startColumn": 4,
+                        "startOffset": 3069,
+                        "endColumn": 47,
+                        "endOffset": 3112
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 50,
+                    "startColumn": 4,
+                    "startOffset": 3117,
+                    "endColumn": 48,
+                    "endOffset": 3161
+                },
+                "from": {
+                    "file": "E:\\study_and_work\\android_and_java\\android_and_java(old)\\Iyou\\7.2\\7.1\\IyoU\\otherAnim\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 50,
+                        "startColumn": 4,
+                        "startOffset": 3117,
+                        "endColumn": 48,
+                        "endOffset": 3161
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "C:\\Users\\road\\Desktop\\7.1\\IyoU\\otherAnim\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 40,
+                    "startColumn": 4,
+                    "startOffset": 2638,
+                    "endColumn": 42,
+                    "endOffset": 2676
+                },
+                "from": {
+                    "file": "C:\\Users\\road\\Desktop\\7.1\\IyoU\\otherAnim\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 40,
+                        "startColumn": 4,
+                        "startOffset": 2638,
+                        "endColumn": 42,
+                        "endOffset": 2676
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 41,
+                    "startColumn": 4,
+                    "startOffset": 2681,
+                    "endColumn": 58,
+                    "endOffset": 2735
+                },
+                "from": {
+                    "file": "C:\\Users\\road\\Desktop\\7.1\\IyoU\\otherAnim\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 41,
+                        "startColumn": 4,
+                        "startOffset": 2681,
+                        "endColumn": 58,
+                        "endOffset": 2735
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 42,
+                    "startColumn": 4,
+                    "startOffset": 2740,
+                    "endColumn": 57,
+                    "endOffset": 2793
+                },
+                "from": {
+                    "file": "C:\\Users\\road\\Desktop\\7.1\\IyoU\\otherAnim\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 42,
+                        "startColumn": 4,
+                        "startOffset": 2740,
+                        "endColumn": 57,
+                        "endOffset": 2793
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 43,
+                    "startColumn": 4,
+                    "startOffset": 2798,
+                    "endColumn": 41,
+                    "endOffset": 2835
+                },
+                "from": {
+                    "file": "C:\\Users\\road\\Desktop\\7.1\\IyoU\\otherAnim\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 43,
+                        "startColumn": 4,
+                        "startOffset": 2798,
+                        "endColumn": 41,
+                        "endOffset": 2835
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 44,
+                    "startColumn": 4,
+                    "startOffset": 2840,
+                    "endColumn": 41,
+                    "endOffset": 2877
+                },
+                "from": {
+                    "file": "C:\\Users\\road\\Desktop\\7.1\\IyoU\\otherAnim\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 44,
+                        "startColumn": 4,
+                        "startOffset": 2840,
+                        "endColumn": 41,
+                        "endOffset": 2877
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 45,
+                    "startColumn": 4,
+                    "startOffset": 2882,
+                    "endColumn": 47,
+                    "endOffset": 2925
+                },
+                "from": {
+                    "file": "C:\\Users\\road\\Desktop\\7.1\\IyoU\\otherAnim\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 45,
+                        "startColumn": 4,
+                        "startOffset": 2882,
+                        "endColumn": 47,
+                        "endOffset": 2925
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 46,
+                    "startColumn": 4,
+                    "startOffset": 2930,
+                    "endColumn": 49,
+                    "endOffset": 2975
+                },
+                "from": {
+                    "file": "C:\\Users\\road\\Desktop\\7.1\\IyoU\\otherAnim\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 46,
+                        "startColumn": 4,
+                        "startOffset": 2930,
+                        "endColumn": 49,
+                        "endOffset": 2975
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 47,
+                    "startColumn": 4,
+                    "startOffset": 2980,
+                    "endColumn": 44,
+                    "endOffset": 3020
+                },
+                "from": {
+                    "file": "C:\\Users\\road\\Desktop\\7.1\\IyoU\\otherAnim\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 47,
+                        "startColumn": 4,
+                        "startOffset": 2980,
+                        "endColumn": 44,
+                        "endOffset": 3020
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 48,
+                    "startColumn": 4,
+                    "startOffset": 3025,
+                    "endColumn": 43,
+                    "endOffset": 3064
+                },
+                "from": {
+                    "file": "C:\\Users\\road\\Desktop\\7.1\\IyoU\\otherAnim\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 48,
+                        "startColumn": 4,
+                        "startOffset": 3025,
+                        "endColumn": 43,
+                        "endOffset": 3064
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 49,
+                    "startColumn": 4,
+                    "startOffset": 3069,
+                    "endColumn": 47,
+                    "endOffset": 3112
+                },
+                "from": {
+                    "file": "C:\\Users\\road\\Desktop\\7.1\\IyoU\\otherAnim\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 49,
+                        "startColumn": 4,
+                        "startOffset": 3069,
+                        "endColumn": 47,
+                        "endOffset": 3112
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 50,
+                    "startColumn": 4,
+                    "startOffset": 3117,
+                    "endColumn": 48,
+                    "endOffset": 3161
+                },
+                "from": {
+                    "file": "C:\\Users\\road\\Desktop\\7.1\\IyoU\\otherAnim\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 50,
+                        "startColumn": 4,
+                        "startOffset": 3117,
+                        "endColumn": 48,
+                        "endOffset": 3161
+                    }
+                }
+            }
+        ]
+    }
+]

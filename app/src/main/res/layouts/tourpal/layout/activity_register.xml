@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/reg_head"
+            android:background="@drawable/default_head_pic"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:paddingTop="10dp"
+            android:text="点击设置头像"
+            android:textSize="15dp"
+            android:textColor="#FFD700"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="20dp">
+
+            <android.support.design.widget.TextInputLayout android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText android:id="@+id/reg_account" android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:hint="用户名"
+                     android:maxLines="1"
+                    android:singleLine="true"
+                    style="@style/MyEditText"/>
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText android:id="@+id/reg_email" android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:hint="邮箱"
+                    android:inputType="textEmailAddress" android:maxLines="1"
+                    style="@style/MyEditText"
+                    android:singleLine="true" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText android:id="@+id/reg_password" android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:hint="密码"
+                    android:maxLines="1" android:singleLine="true"
+                    style="@style/MyEditText"/>
+
+            </android.support.design.widget.TextInputLayout>
+
+            <Button android:id="@+id/success_button" style="?android:textAppearanceSmall"
+                android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:layout_marginTop="16dp" android:text="注册"
+                android:textStyle="bold"
+                android:background="@drawable/purebutton"
+                android:textColor="@color/avoscloud_feedback_white"/>
+
+        </LinearLayout>
+
+</LinearLayout>
+
+

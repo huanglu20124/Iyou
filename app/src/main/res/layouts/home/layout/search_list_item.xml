@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.example.iyou.tool.CustomImageView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:id="@+id/search_item_imageview"
+        android:layout_weight="1"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/search_item_textview"
+        android:layout_weight="5"
+        android:layout_gravity="center"
+        android:textSize="@dimen/home_list_name_text"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"/>
+
+
+</LinearLayout>

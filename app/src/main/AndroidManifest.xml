@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.iyou" >
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <!-- 地图SDK（包含其搜索功能）需要的基础权限 -->
+          
+    <!-- 允许程序打开网络套接字 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- 允许程序设置内置sd卡的写权限 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!-- 允许程序获取网络状态 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!-- 允许程序访问WiFi网络信息 -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <!-- 允许程序读写手机状态和身份 -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />  
+    <!-- 允许程序访问CellID或WiFi热点来获取粗略的位置 -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/iyou"
+        android:label="爱自游"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:name=".MyLeanCloudApp" >
+
+        <!-- 实时通信模块、推送（均需要加入以下声明） START -->
+        <!-- 实时通信模块、推送都要使用 PushService -->
+        <service android:name="com.avos.avoscloud.PushService"/>
+        <receiver android:name="com.avos.avoscloud.AVBroadcastReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.intent.action.USER_PRESENT"/>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+        <!-- 实时通信模块、推送 END -->
+
+        <!-- 反馈组件（需要加入以下声明）START -->
+        <activity
+            android:name="com.avos.avoscloud.feedback.ThreadActivity" >
+        </activity>
+        <!-- 反馈组件 END -->
+
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity android:name=".my.activity.MyQuestionActivity" >
+        </activity>
+        <activity android:name=".my.activity.MyRouteActivity" >
+        </activity>
+        <activity android:name=".my.activity.MyReplyActivity" >
+        </activity>
+        <activity android:name=".my.activity.LoginActivity" >
+        </activity>
+        <activity android:name=".route.activity.RouteActivity" >
+        </activity>
+        <activity android:name=".route.activity.EditShareRouteActivity"></activity>
+        <activity android:name=".my.activity.MyResetActivity" >
+        </activity>
+        <activity android:name=".my.activity.AboutAppActivity" >
+        </activity>
+        <activity android:name=".home.activity.LocationActivity" >
+        </activity>
+        <activity android:name=".home.activity.SearchActivity" >
+        </activity>
+        <activity android:name=".home.activity.SceneryCarActivity" >
+        </activity>
+        <activity android:name=".home.activity.SceneryActivity"></activity>
+        <activity android:name=".community.activity.RoutePostContentActivity" >
+        </activity>
+        <activity android:name=".community.activity.QuestionPostContentActivity" >
+        </activity>
+        <activity android:name=".community.activity.EditCommentActivity" >
+        </activity>
+        <activity android:name=".community.activity.EditAnswerActivity" >
+        </activity>
+        <activity android:name=".my.activity.MyResetSignatureActivity"></activity>
+        <activity android:name=".my.activity.RegisterSucessActivity"></activity>
+        <activity android:name=".my.activity.MySetNameActivity"></activity>
+        <activity android:name=".my.activity.MyRegisterActivity"></activity>
+        <activity android:name=".home.activity.WelcomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <receiver android:name=".home.activity.SceneryCarReceiver">
+            <intent-filter >
+                <action android:name="android.intent.action.EDIT"/>
+            </intent-filter>
+        </receiver>
+
+        <!--/////////////////高德地图添加的/////////////////////////////////-->
+        <meta-data
+            android:name="com.amap.api.v2.apikey"
+            android:value="19159ebda6837605bed8eb411325e5ba" />
+        <!--////////////////////////////////////////////////////////////////-->
+
+        <activity android:name=".community.activity.ShareQuestionPostActivity" />
+
+        <!--地图SDK（包含其搜索功能）需要的基础权限-->
+              
+        <!--允许程序打开网络套接字-->
+        <uses-permission android:name="android.permission.INTERNET" />
+        <!--允许程序设置内置sd卡的写权限-->
+        <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />  
+        <!--允许程序获取网络状态-->
+        <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+        <!--允许程序访问WiFi网络信息-->
+        <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+        <!--允许程序读写手机状态和身份-->
+        <uses-permission android:name="android.permission.READ_PHONE_STATE" />    
+        <!--允许程序访问CellID或WiFi热点来获取粗略的位置-->
+        <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+        <!--用于进行网络定位-->
+        <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"></uses-permission>
+        <!--用于访问GPS定位-->
+        <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"></uses-permission>
+        <!--用于获取运营商信息，用于支持提供运营商信息相关的接口-->
+        <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"></uses-permission>
+        <!--用于访问wifi网络信息，wifi信息会用于进行网络定位-->
+        <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"></uses-permission>
+        <!--用于获取wifi的获取权限，wifi信息会用来进行网络定位-->
+        <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"></uses-permission>
+        <!--用于访问网络，网络定位需要上网-->
+        <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+        <!--用于读取手机当前的状态-->
+        <uses-permission android:name="android.permission.READ_PHONE_STATE"></uses-permission>
+        <!--用于写入缓存数据到扩展存储卡-->
+        <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
+        <!--用于申请调用A-GPS模块-->
+        <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS"></uses-permission>
+        <!--用于申请获取蓝牙信息进行室内定位-->
+        <uses-permission android:name="android.permission.BLUETOOTH"></uses-permission>
+        <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"></uses-permission>
+
+
+
+        <service android:name="com.amap.api.location.APSService"></service>
+
+
+        <activity
+            android:name=".route.activity.DriveRouteDetailActivity"
+            android:label="@string/route_demo"
+            android:screenOrientation="portrait" />
+        <activity android:name=".route.activity.RouteAddressActivity" />
+        <activity android:name=".route.activity.RouteMapActivity"></activity>
+        <activity android:name=".tourpal.activity.TourpalConversationListActivity"></activity>
+</application>
+
+
+
+</manifest>
+
+

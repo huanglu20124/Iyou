@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <com.example.iyou.tool.CustomImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    app:srcCompat="@drawable/li1"
+                    android:id="@+id/scenery_imageview"
+                    android:background="@android:color/background_light" />
+
+                <TextView
+                    android:text="景点名"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/scenery_name_textview"
+                    android:background="@android:color/background_light"
+                    android:textSize="30sp"
+                    android:textStyle="italic"
+                    style="@style/SceneryTextStyle"
+                    android:textColor="@color/colorRadioButton" />
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:orientation="horizontal">
+                        <ImageView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:src="@drawable/s_address"/>
+                        <TextView
+                            android:text="地址"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="10"
+                            android:layout_gravity="center"
+                            android:id="@+id/textView13"
+                            style="@style/SceneryTextStyle"
+                            android:paddingLeft="8dp"
+                            android:background="@color/white"/>
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_marginLeft="10dp"
+                        android:text="详细地址介绍"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/scenery_address_textview"
+                        android:background="@android:color/background_light"
+                        android:textSize="18sp"
+                        style="@style/SceneryTextStyle" />
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:orientation="horizontal">
+                        <ImageView
+                            android:layout_width="0dp"
+                            android:layout_height="50dp"
+                            android:layout_weight="1"
+                            android:src="@drawable/s_describe"/>
+                        <TextView
+                            android:text="介绍"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="10"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="8dp"
+                            android:id="@+id/textView23"
+                            style="@style/SceneryTextStyle"
+                            android:background="@color/white"/>
+                    </LinearLayout>
+
+                <TextView
+                    android:text="详细介绍"
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/scenery_ticket_textview"
+                    android:background="@android:color/background_light"
+                    android:textSize="18sp"
+                    style="@style/SceneryTextStyle"/>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:orientation="horizontal">
+                        <ImageView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:src="@drawable/s_ticket"/>
+                        <TextView
+                            android:text="票价"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="10"
+                            android:id="@+id/textView25"
+                            style="@style/SceneryTextStyle"
+                            android:layout_gravity="center"
+                            android:paddingLeft="8dp"
+                            android:background="@color/white"/>
+                    </LinearLayout>
+                    <TextView
+                        android:layout_marginLeft="10dp"
+                        android:text="详细景点介绍\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nfsdfsa"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/scenery_detail_textview"
+                        android:background="@android:color/background_light"
+                        android:textSize="18sp"
+                        style="@style/SceneryTextStyle"/>
+            </LinearLayout>
+        </ScrollView>
+
+        <android.support.design.widget.FloatingActionButton android:id="@+id/fab"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end" android:layout_margin="@dimen/fab_margin"
+            android:src="@drawable/plus"
+            android:background="@color/white"/>
+    </FrameLayout>
+
+</LinearLayout>

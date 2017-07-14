@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorMyFontNum">#F80</color>
+    <color name="colorMyBackground">#EEE</color>
+    <color name="colorMakeRouteBtn">#1fec00</color>
+    <color name="colorRadioButton">#333333</color>
+    <color name="colorBaseYellow">#FFD700</color>
+
+    <!--高德地图Demo的示例代码属性-->
+    <color name="grey"> #ebebeb</color>
+    <color name="black"> #000000</color>
+    <color name="darkgrey"> #999999</color>
+    <color name="white"> #FFFFFF</color>
+    <color name="red"> #FF0000</color>
+    <color name="blue">#4c90f9</color>
+    <color name="gary">#898989</color>
+    <color name="gray_lite">#c5c5c5</color>
+    <color name="phone_bg">#f6f6f6</color>
+    <color name="transparent">#00000000</color>
+    <color name="itemlist">#f4f4f4</color>
+    <color name="watermark_hint">#ccffffff</color>
+    <color name="act_background">#efefef</color>
+
+    //floatingButton的属性
+    <color name="black_semi_transparent">#B2000000</color>
+    <color name="background">#e5e5e5</color>
+    <color name="half_black">#808080</color>
+    <color name="white_pressed">#f1f1f1</color>
+    <color name="pink">#e91e63</color>
+    <color name="pink_pressed">#ec407a</color>
+    <color name="blue_semi_transparent">#805677fc</color>
+    <color name="blue_semi_transparent_pressed">#80738ffe</color>
+
+
+    <color name="c_1">#1A43C9</color>
+    <color name="c_2">#C91A1A</color>
+    <color name="c_3">#279F1A</color>
+    <color name="c_4">#890CF3</color>
+    <color name="c_5">#E86D09</color>
+    <color name="divider_color">#F5F5F5</color>
+</resources>
